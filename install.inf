@@ -1,8 +1,9 @@
 [info]
 title=Online Search
-desc=Opens web-browser with search for selected text
+desc=Opens webbrowser with search for selection/word, supports several search engines
 type=cudatext-plugin
 subdir=cuda_online_search
+homepage=http://github.com/cudatext-addons/cuda_online_search
 
 [item1]
 section=commands
