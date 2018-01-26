@@ -1,4 +1,8 @@
 
+2018.01.26
++ add search: Bing
++ add search: Laravel Docs
+
 2016.06.14
-- fix for space-chrs
+- fix for space chars
 init
