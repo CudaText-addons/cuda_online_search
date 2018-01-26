@@ -7,10 +7,12 @@ from .word_proc import *
 LIST = {
     'Wikipedia': 'http://en.wikipedia.org/w/index.php?title=Special:Search&search={sel}',
     'Google': 'http://www.google.com/search?q={sel}',
+    'Bing': 'http://www.bing.com/search?q={sel}',
     'MSDN': 'http://social.msdn.microsoft.com/Search/en-US?query={sel}',
     'HTML4': 'http://www.w3schools.com/tags/tag_{word}.asp',
     'HTML5': 'http://www.w3.org/TR/html-markup/{word}.html',
     'PHP.net': 'http://www.php.net/{word}',
+    'Laravel Docs': 'https://laravel.com/docs/{word}',
     }
     
 
@@ -49,6 +51,8 @@ class Command:
         work('Wikipedia')
     def do_google(self):
         work('Google')
+    def do_bing(self):
+        work('Bing')
     def do_msdn(self):
         work('MSDN')
     def do_html4(self):
@@ -57,3 +61,5 @@ class Command:
         work('HTML5')
     def do_php(self):
         work('PHP.net')
+    def do_laravel(self):
+        work('Laravel Docs')

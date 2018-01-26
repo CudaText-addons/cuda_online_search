@@ -9,27 +9,37 @@ section=commands
 caption=Online Search\Wikipedia
 method=do_wikipedia
 
-[item2]
+[item5]
 section=commands
 caption=Online Search\Google
 method=do_google
 
-[item3]
+[item6]
+section=commands
+caption=Online Search\Bing
+method=do_bing
+
+[item10]
 section=commands
 caption=Online Search\MSDN
 method=do_msdn
 
-[item10]
+[item20]
 section=commands
 caption=Online Search\HTML4
 method=do_html4
 
-[item11]
+[item21]
 section=commands
 caption=Online Search\HTML5
 method=do_html5
 
-[item12]
+[item25]
 section=commands
 caption=Online Search\PHP.net
 method=do_php
+
+[item26]
+section=commands
+caption=Online Search\Laravel Docs
+method=do_laravel
