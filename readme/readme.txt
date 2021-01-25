@@ -11,5 +11,5 @@ commands open web-browser with search results.
 - PHP.net
 - Laravel Docs
 
-author: Alexey (CudaText)
+author: Alexey Torgashin (CudaText)
 license: MIT
