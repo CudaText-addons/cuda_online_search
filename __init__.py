@@ -1,7 +1,7 @@
 import os
-import webbrowser
 from urllib.parse import quote
 from cudatext import *
+from cudax_lib import safe_open_url
 from .word_proc import *
 
 LIST = {
@@ -43,7 +43,7 @@ def work(name):
     s = s.replace('{word}', quote(s_word))
     
     msg_status('Opening browser: '+s) 
-    webbrowser.open_new_tab(s)
+    safe_open_url(s)
     
 
 class Command:
