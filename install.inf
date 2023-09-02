@@ -44,3 +44,17 @@ method=do_php
 section=commands
 caption=Online Search\Laravel Docs
 method=do_laravel
+
+[item27]
+section=commands
+caption=Online Search\WordPress
+method=do_wordpress
+
+[item28]
+section=commands
+caption=Online Search\1C-Bitrix
+method=do_bitrix
+
+[item101]
+section=events
+events=on_start2

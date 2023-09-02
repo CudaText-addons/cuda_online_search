@@ -10,6 +10,8 @@ commands open web-browser with search results.
 - MSDN
 - PHP.net
 - Laravel Docs
+- WordPress
+- 1C-Bitrix
 
-author: Alexey Torgashin (CudaText)
+authors: Alexey Torgashin (CudaText), ildar r. khasanshin (https://github.com/ildarkhasanshin/)
 license: MIT
