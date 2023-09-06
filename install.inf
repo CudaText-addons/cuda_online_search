@@ -57,4 +57,4 @@ method=do_bitrix
 
 [item101]
 section=events
-events=on_start2
+events=on_click_right

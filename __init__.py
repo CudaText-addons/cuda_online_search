@@ -47,6 +47,7 @@ def work(name):
 
 
 class Command:
+    menu_inited = False
     def do_wikipedia(self):
         work('Wikipedia')
     def do_google(self):
@@ -67,7 +68,11 @@ class Command:
         work('WordPress')
     def do_bitrix(self):
         work('1C-Bitrix')
-    def on_start2(self, ed_self):
+
+    def on_click_right(self, ed_self, state):
+        if self.menu_inited:
+            return
+        self.menu_inited = True
         menu_proc('text', MENU_ADD, caption='-')
         context_menu_id = menu_proc('text', MENU_ADD, caption='Online Search')
         menu_proc(context_menu_id, MENU_ADD, command='cuda_online_search.do_wikipedia', caption='Wikipedia')

@@ -1,14 +1,17 @@
+2023.09.06
++ add: changed event on_start2 -> on_click_right (so plugin does not load on start)
+
 2023.09.02
-+ add search: WordPress
-+ add search: 1C-Bitrix
-+ add submenu in context-menu
++ add: search "WordPress"
++ add: search "1C-Bitrix"
++ add: submenu in context-menu
 
 2023.08.31
 - fix: must use cudax_lib.safe_open_url() to avoid crash on Windows
 
 2018.01.26
-+ add search: Bing
-+ add search: Laravel Docs
++ add: search "Bing"
++ add: search "Laravel Docs"
 
 2016.06.14
 initial version
